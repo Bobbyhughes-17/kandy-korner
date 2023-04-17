@@ -1,0 +1,84 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 6px;
+    background-color: #f7f7f7;
+    color: black;
+    background-color: gray;
+    border: 2px ridge #ccc;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #007bff;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  
+  #button {
+    background-color: #007bff;
+    color: #fff; 
+    border-color: blueviolet;
+    border-radius: 14px; 
+    padding: 5px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  #button:hover {
+    background-color: #9d19be; 
+  }
+
+  #allBtn {
+    background-color: #007bff; 
+    color: #fff;
+    border-color: blueviolet;
+    border-radius: 14px; 
+    padding: 5px 20px;
+    font-size: 16px; 
+    cursor: crosshair; 
+    transition: background-color 0.6s ease-in-out;
+    margin-right: 80px;
+    box-shadow: 2px 2px 4px blueviolet;
+  }
+
+  #highBtn {
+    background-color: #007bff;
+    color: #fff;
+    border-color: blueviolet;
+    border-radius: 14px; 
+    padding: 5px 20px; 
+    font-size: 16px; 
+    cursor: cell; 
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 2px 2px 4px blueviolet;
+  }
+
+  .input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    color: #555;
+    width: 300px;
+  }
+
+  .input:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .productHead {
+    background-color: blueviolet; 
+    color: lightslategray;
+    font-size: 28px;
+    padding: 20px; 
+    text-align: center;
+    border-radius: 33px;
+    border-bottom: 5px solid lightslategray;
+    margin-bottom: 20px;
+  }
